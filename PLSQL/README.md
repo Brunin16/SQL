@@ -1,0 +1,1 @@
+# Nesta pasta será encontrado alguns exemplos de plsql, onde o ddl é a criação da tabela, o arquivo sql chamado "dados" é a inserção de dados, e o arquivo sql chamado "plsql" é o proprio exemplo plsql
