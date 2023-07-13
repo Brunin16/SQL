@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B91FBAB-5C70-B7DF-E57A-C3E5E09A11BB" name="T_SIP_IMPLANTACAO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 11:56:26 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="19DD63C7-ABFA-CF26-E3BE-3BD877142236" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_projeto" id="3EED84B1-3C36-D62A-AF65-564CA9F0DA2D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-05 12:53:12 UTC</createdTime>
+<generatorID>6C67FF8E-8736-56F4-C30B-32177BEA5912</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="19DD63C7-ABFA-CF26-E3BE-3BD877142236" value="true"/>
+</engineerTo>
+<referedAttribute>BA2BA8A8-FA3F-9A3C-BE2E-2220AB0E3899</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_implantacao" id="E4084CD2-A410-1E9C-FB15-8214F8242006">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 11:56:55 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="19DD63C7-ABFA-CF26-E3BE-3BD877142236" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="BB8CDE2F-0B33-E179-0330-375AB83A9284">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-05 12:53:02 UTC</createdTime>
+<generatorID>1F37665B-7D44-8086-80BB-FC66CC0FB3E1</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="19DD63C7-ABFA-CF26-E3BE-3BD877142236" value="true"/>
+</engineerTo>
+<referedAttribute>315D02D7-7FC8-EE33-EB1A-FE8C1E979D88</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_entrada" id="D7709C72-38B7-4129-A3B6-B35C62D93BD9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 11:57:05 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="19DD63C7-ABFA-CF26-E3BE-3BD877142236" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="DCD4D6CB-1296-B0AE-25F2-282BF900C846">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 11:57:19 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="19DD63C7-ABFA-CF26-E3BE-3BD877142236" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="16964561-38E3-F89C-ECE9-5E5FBBC17E08" name="T_SIP_IMPLANTACAO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 11:57:04 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="19DD63C7-ABFA-CF26-E3BE-3BD877142236" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3EED84B1-3C36-D62A-AF65-564CA9F0DA2D</attributeRef>
+<attributeRef>E4084CD2-A410-1E9C-FB15-8214F8242006</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

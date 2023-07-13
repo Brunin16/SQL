@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33B07733-E2DF-DF72-3A29-9697F00958D2" name="T_SPV_ITEM_NTFISC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>0B72729F-C92F-C057-6410-C8DE0FA008BC</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_produto" id="E237873C-9C83-DB2C-8055-2FDEA578522B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>B4A7CA4B-460D-136F-2B84-E07EA96175B4</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAA91F34-52FD-9785-6B52-CCE56E64C571" referredColumn="ED3B596C-1C8E-C8D9-6A8A-C271828CFBC7"/>
+</associations>
+</Column>
+<Column name="nr_nota_fiscal" id="D0CC9149-F25C-E381-C27C-2FA5A9868574">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>3E417C8A-03DE-D477-35C3-F4B64AA6E6D3</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B35B352C-E2EA-B6CE-19DA-5868C76AF3B5" referredColumn="90A731F2-716D-485D-423A-8A77555CEA1A"/>
+</associations>
+</Column>
+<Column name="qt_item_vendida" id="156CC837-07C8-CAD3-A21C-E53C28F443A2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>E71966C9-10DA-87F9-5ADB-B4FF6FC299CB</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_preco_unit" id="9A383E2D-04F1-4773-8163-496BEBFEAB8D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>5AB9EC16-C182-BB11-4ED7-9221B6A89D8A</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_total_item" id="8B0B2492-629A-B8AC-F6F5-CA351239204C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>8DB9CE88-910A-3D9F-B9C6-F070817F5EEB</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6F344E6-640F-1516-05DA-225D82010EE2" name="PK_SPV_ITEM_NTFISC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>FA9B93E7-21FC-985C-12F0-34F27E092CF9</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E237873C-9C83-DB2C-8055-2FDEA578522B"/>
+<colUsage columnID="D0CC9149-F25C-E381-C27C-2FA5A9868574"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BA717A3-1A47-BCD9-1F47-CC8101C2286B" name="FK_SPV_ITEM_NTFISC_PRODUTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>AC33728D-DB0F-E4D1-64CF-01CC0F591C16</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E237873C-9C83-DB2C-8055-2FDEA578522B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0D48840-542D-B250-C8AF-55A9C0BD9D93" name="FK_SPV_ITEM_NTFISC_NT_FISC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>4BCEE889-B304-264E-5D08-47629A9F2AD2</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0CC9149-F25C-E381-C27C-2FA5A9868574"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SPV_ITEM_NTFISC_QNTD_VD" directorySegmentName="seg_0" id="78FB47B8-6B68-81C7-7FB4-EC2CE3AB2B42">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:32:42 UTC</createdTime>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<rule><![CDATA[qt_item_vendida > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_SPV_ITEM_NTFISC_PRECO_UNIT" directorySegmentName="seg_0" id="9954E9C9-1F1A-7919-AE91-EB5DA2F71FFB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:33:30 UTC</createdTime>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<rule><![CDATA[vl_preco_unit > 0.00]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

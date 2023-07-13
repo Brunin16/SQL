@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PROJETO SIP" id="7F6E019A-9437-A6E9-8C57-A0173257F46E" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 11:22:02 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7F6E019A-9437-A6E9-8C57-A0173257F46E</designId>
+</OSDM_Design>

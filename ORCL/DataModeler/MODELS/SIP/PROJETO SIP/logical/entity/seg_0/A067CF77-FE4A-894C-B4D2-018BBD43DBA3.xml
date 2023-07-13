@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A067CF77-FE4A-894C-B4D2-018BBD43DBA3" name="T_SIP_DEPARTAMENTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 11:30:02 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="19DD63C7-ABFA-CF26-E3BE-3BD877142236" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_depto" id="ECA465DE-524E-1ACC-3420-22B6677343E1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 11:32:09 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="19DD63C7-ABFA-CF26-E3BE-3BD877142236" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_depto" id="3FB77861-AC1B-39D8-C5C8-0DB9DC304291">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 11:34:27 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="19DD63C7-ABFA-CF26-E3BE-3BD877142236" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sg_depto" id="E23805DA-C687-874C-1628-6257DFC3462C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 11:35:56 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="19DD63C7-ABFA-CF26-E3BE-3BD877142236" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0393746A-C035-1868-5FF5-A4971481DC4A" name="T_SIP_DEPARTAMENTO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 11:35:35 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="19DD63C7-ABFA-CF26-E3BE-3BD877142236" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECA465DE-524E-1ACC-3420-22B6677343E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

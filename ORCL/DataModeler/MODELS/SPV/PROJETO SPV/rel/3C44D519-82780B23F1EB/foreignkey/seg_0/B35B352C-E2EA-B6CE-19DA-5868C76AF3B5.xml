@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B35B352C-E2EA-B6CE-19DA-5868C76AF3B5" containerWithKeyObject="33B07733-E2DF-DF72-3A29-9697F00958D2" localFKIndex="D0D48840-542D-B250-C8AF-55A9C0BD9D93" name="FK_SPV_ITEM_NTFISC_NT_FISC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>4BCEE889-B304-264E-5D08-47629A9F2AD2</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<referredTableLongName>T_SPV_NT_FISC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>61C17CD8-82CC-68F9-4FCC-7DBCFBE757CD</referredTableID>
+<keyObject>1CF54EDA-780A-9A55-16F2-03365D5BE02C</keyObject>
+<referredKeyID>1CF54EDA-780A-9A55-16F2-03365D5BE02C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr_nota_fiscal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TERv1" directorySegmentName="seg_0" id="6C67FF8E-8736-56F4-C30B-32177BEA5912">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-05 12:53:12 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="19DD63C7-ABFA-CF26-E3BE-3BD877142236" value="true"/>
+</engineerTo>
+<sourcePk>1F996AD5-4989-75F7-48CA-B567D0197125</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>25AE2B28-AC83-DA6A-8716-B1B27D86AB33</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9B91FBAB-5C70-B7DF-E57A-C3E5E09A11BB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PROJETO SPV" id="4917961F-7F8E-6384-3A88-8325F6772DD2" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 12:00:40 UTC</createdTime>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4917961F-7F8E-6384-3A88-8325F6772DD2</designId>
+</OSDM_Design>

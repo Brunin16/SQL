@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="19DD63C7-ABFA-CF26-E3BE-3BD877142236" mainViewID="9B7C4221-3A51-D513-F88B-94F35AC3F2B0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 11:22:04 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B72729F-C92F-C057-6410-C8DE0FA008BC" name="T_SPV_ITEM_NTFISC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 12:11:33 UTC</createdTime>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="3C44D519-FB4C-A443-4D8F-82780B23F1EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_produto" id="B4A7CA4B-460D-136F-2B84-E07EA96175B4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 11:29:00 UTC</createdTime>
+<generatorID>AC33728D-DB0F-E4D1-64CF-01CC0F591C16</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="3C44D519-FB4C-A443-4D8F-82780B23F1EB" value="true"/>
+</engineerTo>
+<referedAttribute>C1B1F32D-BF9B-FE09-83A9-AF66C7B30C62</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_nota_fiscal" id="3E417C8A-03DE-D477-35C3-F4B64AA6E6D3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 12:01:53 UTC</createdTime>
+<generatorID>4BCEE889-B304-264E-5D08-47629A9F2AD2</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="3C44D519-FB4C-A443-4D8F-82780B23F1EB" value="true"/>
+</engineerTo>
+<referedAttribute>91C68BD8-4762-1268-D401-593A08D40B45</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_item_vendida" id="E71966C9-10DA-87F9-5ADB-B4FF6FC299CB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 12:11:39 UTC</createdTime>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="3C44D519-FB4C-A443-4D8F-82780B23F1EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_preco_unit" id="5AB9EC16-C182-BB11-4ED7-9221B6A89D8A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 12:11:44 UTC</createdTime>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="3C44D519-FB4C-A443-4D8F-82780B23F1EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_total_item" id="8DB9CE88-910A-3D9F-B9C6-F070817F5EEB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 12:11:48 UTC</createdTime>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="3C44D519-FB4C-A443-4D8F-82780B23F1EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA9B93E7-21FC-985C-12F0-34F27E092CF9" name="T_SPV_ITEM_NTFISC PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-28 12:11:53 UTC</createdTime>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="3C44D519-FB4C-A443-4D8F-82780B23F1EB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4A7CA4B-460D-136F-2B84-E07EA96175B4</attributeRef>
+<attributeRef>3E417C8A-03DE-D477-35C3-F4B64AA6E6D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

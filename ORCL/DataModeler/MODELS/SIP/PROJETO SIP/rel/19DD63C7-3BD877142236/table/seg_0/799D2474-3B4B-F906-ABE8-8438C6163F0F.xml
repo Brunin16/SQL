@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="799D2474-3B4B-F906-ABE8-8438C6163F0F" name="T_SIP_PROJETO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>25AE2B28-AC83-DA6A-8716-B1B27D86AB33</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_projeto" id="626FDCEC-C6D4-98C2-A42D-96823EFB940A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>BA2BA8A8-FA3F-9A3C-BE2E-2220AB0E3899</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_projeto" id="9CC3F7BC-88C9-AD8F-DD48-CBEC785A50D1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>B8C57C12-491D-BB1E-65B2-2164E83C0C2D</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio_projeto" id="5C91D7B9-F6E4-2F40-5606-84AA8DA33945">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>46441DD8-421D-9B4A-BD0E-B7AC360294DC</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fim_projeto" id="BF4124F4-F589-F3F6-E307-0D4434C29DEF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>936C6996-40DB-109D-7C12-4D6482CD2529</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33993E37-BC0C-C7BF-FC85-4ABB755F6CAC" name="PK_SIP_PROJETO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>1F996AD5-4989-75F7-48CA-B567D0197125</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="626FDCEC-C6D4-98C2-A42D-96823EFB940A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2778FB71-769B-79E8-4F18-846B65204165" name="UN_SIP_PROJETO_NOME">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:12:16 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CC3F7BC-88C9-AD8F-DD48-CBEC785A50D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SIP_PROJETO_DATA" directorySegmentName="seg_0" id="6C8F7F42-D5F3-10C3-5509-891F308E1EB8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:14:23 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<rule><![CDATA[dt_fim_projeto > dt_inicio_projeto
+]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

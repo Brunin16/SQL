@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Comprar" directorySegmentName="seg_0" id="60EA82F1-11F3-654B-10E9-E22A59B618A8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 11:20:31 UTC</createdTime>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="3C44D519-FB4C-A443-4D8F-82780B23F1EB" value="true"/>
+</engineerTo>
+<sourcePk>38367750-5C2B-344A-F985-071831D1B053</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7DA10A34-1B6F-F83A-BE8B-6886EDAF9EB6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F28A368C-4515-471D-C579-70246D7B7101</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

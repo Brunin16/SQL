@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3808CEE-6CBA-B362-7177-829247C15D7A" name="T_SIP_FUNCIONARIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>635A8CE9-43A6-A945-51E8-8EFCE47F9524</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_matricula" id="6C5557E3-3B9A-D766-3642-330F970A1E0E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>315D02D7-7FC8-EE33-EB1A-FE8C1E979D88</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_depto" id="C0E8274C-88BA-2BDC-A8F1-F22D0BE07EA7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>1F14279C-5741-D1A8-6895-56495433FA00</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDD001E7-4D26-EAAB-B971-74D303BA30BF" referredColumn="6F8C3FD2-FAF1-554D-D019-F10CE44F1E7E"/>
+</associations>
+</Column>
+<Column name="nm_funcionario" id="0459BE2A-1600-3B8A-5181-C39D9D9130E7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>D6D2CC15-4B5C-2810-18F3-9FA57D303689</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="ACCBBD89-AEE9-502F-0D5D-B590305E9E00">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>352F641E-D21B-E244-D4F7-4E912CB91FFA</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_admissao" id="3E34E5A9-6665-D3AE-DE68-6D81375FF7AB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>395BF9E0-6263-74C6-8918-6A276AAF9C32</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="DAD18AB3-46FA-64F9-E908-173589DF9684">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>45A2928D-03DE-6B76-D459-C166265BFE3D</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_sal_men" id="C3549DAE-24B5-D7BB-C7C8-A725247E21BD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>0945DBC7-9362-2E8A-B475-6027CC511959</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2490E57B-F4D3-F5B5-4631-59D39AF33038" name="PK_SIP_FUNCIONARIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>E586DFFE-E299-E476-2AC8-B2A961E5BD14</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C5557E3-3B9A-D766-3642-330F970A1E0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26533D0E-B71E-8076-55E5-D9D4025BF642" name="FK_SIP_FUNC_DEPTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>63C72799-8A8D-82D6-BDAE-FF375EC0B43B</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0E8274C-88BA-2BDC-A8F1-F22D0BE07EA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SIP_FUNC_SALARIO" directorySegmentName="seg_0" id="BDFDF753-EABB-92CA-F128-C59FBEAA6B4D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:11:02 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<rule><![CDATA[vl_salario_men >= 1212]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

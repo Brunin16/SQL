@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E876FDDF-8F5D-797F-52A4-04DCC770F429" name="T_SIP_DEPENDENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>D03A21B2-39C4-98D5-FAD5-AE1DFFAF512C</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_matricula" id="30046AAE-FBA9-9B38-A9D6-E9524119DB92">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>C2380EBB-FC72-6739-D52C-019DAD2D3EDA</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3C352B5-A5BA-3EF8-AFE6-25E5160BF0FB" referredColumn="6C5557E3-3B9A-D766-3642-330F970A1E0E"/>
+</associations>
+</Column>
+<Column name="cd_dependente" id="F57A7433-61E3-1298-068B-F66494B1911C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>82B64B7E-6053-4707-6C29-936584F5A86C</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_dependente" id="C0BAC9A6-7ACA-688F-853A-8A874DE5FA29">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>8FA0A208-77A2-2BDD-716B-2B8B58283751</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="0A123DA2-25FB-891B-8140-D8BC4BB23C52">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>F3871C48-1E7E-BE4C-830F-1DA750C6E7DA</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A16CA5E-E60D-1081-5850-FE70EBF9A24A" name="PK_SIP_DEPENDENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>91BAD706-C358-8127-BC47-147F85355FA4</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30046AAE-FBA9-9B38-A9D6-E9524119DB92"/>
+<colUsage columnID="F57A7433-61E3-1298-068B-F66494B1911C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B94B94F1-9015-83E1-0FD8-3FA6B9B6B074" name="FK_SIP_DEPENDENTE_FUNC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 11:20:03 UTC</createdTime>
+<generatorID>0F2A1C5B-FA5E-40B8-9856-FF118BBEAE9C</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30046AAE-FBA9-9B38-A9D6-E9524119DB92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

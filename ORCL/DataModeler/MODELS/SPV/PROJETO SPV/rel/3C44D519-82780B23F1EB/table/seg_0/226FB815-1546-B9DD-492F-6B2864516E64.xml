@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="226FB815-1546-B9DD-492F-6B2864516E64" name="T_SPV_CLIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>7DA10A34-1B6F-F83A-BE8B-6886EDAF9EB6</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cliente" id="0E34607B-0270-7D69-7A60-231F0119977F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>0DC80E4F-120B-75A5-E740-3D1E993592FB</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_completo" id="C73261E1-4E7F-9E91-E8FC-EC2AB9EBB8D4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>A81DFDB1-F37C-E21D-EC7A-A98A1F5EB4FF</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="F8B3F39B-87A7-898E-5827-BD095C866273">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>C6969FA2-BA8F-35FD-86BF-B1BCC97CD34B</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_genero" id="2A3DFF57-69E2-44AC-3AFB-00B8331FEF72">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>89190FF8-DDBD-F78C-F60D-057BEAA7F9AB</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="6C7B7437-7D48-343E-FF76-3E88C9859837">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>245A78A1-53CD-6357-5DC9-E5E13402FEB4</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_telefone" id="D68D5BDD-229C-0068-A1FE-49E238D2D81D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>930A75E2-8140-CC3C-DD3B-3368024358A0</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="D61B476A-8A97-4017-41B0-C249AC924E39">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>049B74F2-A643-D4FA-5381-57E241A5EB5B</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="D85CBBBC-F62F-846C-2D56-667826D64A36">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>E718C378-FE07-C804-5F8A-0E4B68DD69FE</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf_dig" id="CF52F215-7FD4-6FBB-9F66-48DAC2BA6599">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>50E2150B-8C3F-B929-0737-25F2B8187BE2</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_rg" id="8A5EBD0D-6D44-75FA-28FA-645596A8C7E3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>3E627037-2752-C6F1-E0F0-B72F58C14354</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_rg_dig" id="AC2CF64E-02DE-AA88-24C8-9950E80F2DB3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>691307E0-BE50-642D-DE98-7A7AA01ADD81</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F91F4FCE-4A5C-A804-1B20-22BB0CBE80B7" name="PK_SPV_CLIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:17:42 UTC</createdTime>
+<generatorID>38367750-5C2B-344A-F985-071831D1B053</generatorID>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E34607B-0270-7D69-7A60-231F0119977F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SPV_CLIENTE_GENERO" directorySegmentName="seg_0" id="12661B45-FFE5-2D23-BD59-4D3D1314A058">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-08-04 12:42:11 UTC</createdTime>
+<ownerDesignName>PROJETO SPV</ownerDesignName>
+<rule><![CDATA[upper(ds_genero) = 'M' or upper(ds_genero) = 'H' or upper(ds_genero) == 'NB']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>
